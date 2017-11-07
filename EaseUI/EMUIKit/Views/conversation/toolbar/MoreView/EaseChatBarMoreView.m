@@ -190,6 +190,7 @@
     if (moreButton && [moreButton isKindOfClass:[UIButton class]]) {
         [(UIButton*)moreButton setImage:image forState:UIControlStateNormal];
         [(UIButton*)moreButton setImage:highLightedImage forState:UIControlStateHighlighted];
+        [(UIButton*)moreButton setTitle:title forState:UIControlStateNormal];
     }
 }
 
